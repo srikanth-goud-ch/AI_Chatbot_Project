@@ -18,7 +18,7 @@ load_dotenv()
 llm = ChatGroq(
     model="llama-3.1-8b-instant", 
     temperature=0, 
-    groq_api_key="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"
+    groq_api_key="Groq_API_KEY"
 )
 embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
